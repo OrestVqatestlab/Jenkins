@@ -14,3 +14,20 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+# pipeline {
+#   agent any
+#   stages {
+#     stage('version') {
+#       steps {
+#         sh 'python3 --version'
+#       }
+#     }
+#     stage('hello') {
+#       steps {
+#         sh 'python3 main.py'
+#       }
+#     }
+#   }
+# }
+
